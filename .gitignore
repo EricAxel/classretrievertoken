@@ -1,0 +1,40 @@
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Dependencias y entornos locales
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Compilación, pruebas y cachés
+dist/
+build/
+coverage/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tsbuildinfo
+
+# Archivos temporales y registros
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Preferencias locales de editores
+.idea/
+.vscode/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini

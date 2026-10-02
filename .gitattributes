@@ -1,0 +1,15 @@
+# Normalizar texto a LF en el repositorio y al extraerlo.
+* text=auto eol=lf
+
+# Scripts de Windows que necesitan CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Archivos binarios habituales.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
