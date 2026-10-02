@@ -17,4 +17,4 @@
 
 ## Verificación
 
-El repositorio todavía no dispone de aplicación ni pruebas automatizadas. Al incorporar código, documentar los comandos de validación en el README y ejecutar las comprobaciones pertinentes antes de proponer cambios.
+Ejecutar `flutter pub get`, `flutter analyze` y `flutter test` en un entorno con Flutter instalado. La exportación incluye una prueba básica de widgets; añadir validaciones pertinentes cuando se modifique el comportamiento de la aplicación.
